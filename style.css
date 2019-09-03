@@ -1,0 +1,14 @@
+span {
+  font-size: 1.5rem;
+  display: block;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#info {
+  line-height: 2rem;
+  text-align: center
+}
