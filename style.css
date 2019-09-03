@@ -1,6 +1,70 @@
+* {
+  font-family: 'Gayathri', sans-serif;
+}
+
+#sun {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 100px;
+}
+
+#cloud1 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  animation-name: cloud1;
+  animation-duration: 50s;
+  animation-iteration-count: 30;
+}
+
+#cloud2 {
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  animation-name: cloud2;
+  animation-duration: 46s;
+  animation-iteration-count: 30;
+}
+
+#cloud3 {
+  position: absolute;
+  top: 11%;
+  left: 60%;
+  transform: scaleX(-1);
+  animation-name: cloud3;
+  animation-duration: 60s;
+  animation-iteration-count: 30;
+}
+
+#cloud4 {
+  position: absolute;
+  top: 4%;
+  left: 80%;
+  animation-name: cloud4;
+  animation-duration: 36s;
+  animation-iteration-count: 30;
+}
+
+.cloud {
+  display: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 span {
   font-size: 1.5rem;
   display: block;
+}
+
+
+input {
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 form {
@@ -8,7 +72,87 @@ form {
   margin-top: 20px;
 }
 
+.radio {
+  margin: 10px;
+}
+
+label {
+  font-size: 20px;
+}
+
 #info {
-  line-height: 2rem;
-  text-align: center
+  margin-top: 100px;
+  line-height: 3rem;
+  text-align: center;
+  z-index: 99;
+  font-weight: bold;
+}
+
+@keyframes cloud1 {
+  0% {
+    top: 5%;
+    left: 5%;
+  }
+
+  50% {
+    top: 5%;
+    left: 7%;
+  }
+
+  100% {
+    top: 5%;
+    left: 5%;
+  }
+}
+
+@keyframes cloud2 {
+  0% {
+    top: 8%;
+    left: 25%;
+  }
+
+  50% {
+    top: 8%;
+    left: 20%;
+  }
+
+  100% {
+    top: 8%;
+    left: 25%;
+  }
+
+}
+
+@keyframes cloud3 {
+  0% {
+    top: 11%;
+    left: 60%;
+  }
+
+  50% {
+    top: 11%;
+    left: 65%;
+  }
+
+  100% {
+    top: 11%;
+    left: 60%;
+  }
+}
+
+@keyframes cloud4 {
+  0% {
+    top: 4%;
+    left: 80%;
+  }
+
+  50% {
+    top: 4%;
+    left: 85%;
+  }
+
+  100% {
+    top: 4%;
+    left: 80%;
+  }
 }
