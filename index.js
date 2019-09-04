@@ -18,7 +18,7 @@ form.addEventListener('submit', e => {
 
 async function getWeather(city) {
 
-  const res = await fetch(`http://api.openweathermap.org/data/2.5/weather/?q=${city}&APPID=e92851a9cd59f34812b2111d73980b22`, {
+  const res = await fetch(`https://api.openweathermap.org/data/2.5/weather/?q=${city}&APPID=e92851a9cd59f34812b2111d73980b22`, {
     mode: "cors"
   }).catch(err => console.log(err));
 

@@ -1,5 +1,6 @@
 * {
   font-family: 'Gayathri', sans-serif;
+  font-weight: bold;
 }
 
 #sun {
@@ -85,7 +86,7 @@ label {
   line-height: 3rem;
   text-align: center;
   z-index: 99;
-  font-weight: bold;
+
 }
 
 @keyframes cloud1 {
